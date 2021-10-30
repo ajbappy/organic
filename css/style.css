@@ -1,0 +1,404 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif; */
+body{
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    color: #333333;
+
+}
+/* header start */
+header{}
+.menu{}
+.menu ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 30px !important;
+}
+.active-one{
+    color: #7baf42 !important;
+}
+.menu ul li:last-child a{
+   
+    
+}
+.card-icon{
+    font-size: 40px;
+    color: #7baf42 !important;
+}
+.card-icon:hover{
+    color: #7baf42 !important;
+}
+
+.menu ul li a:hover{
+    color: #7baf42 !important;
+}
+
+
+
+/* header end */
+/* hero start */
+
+.hero{
+    padding: 100px 0;
+    position: relative;
+}
+
+ .hero::before {
+    content: '';
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left: 0;
+    background-image: url(../img/leave.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position-x: 1120px;
+    background-position-y: 400px;
+    opacity:0.25;
+ }
+
+
+
+
+
+.hero-content h2{
+    
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28px;
+    margin:10px 0;
+    z-index: 2;
+}
+.hero-content h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 68px;
+    z-index: 2;
+}
+.hero-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    z-index: 2;
+}
+.hero-button{
+    color: azure;
+}
+.hero-button i{
+    margin-right: 10px;
+    z-index: 2;
+}
+
+.hero-button:hover {
+    background-color: #7baf42 !important;
+    
+}
+
+
+
+/* hero end */
+/* service stert */
+.service{
+    padding: 50px 10px;
+    background-color:#001524 ;
+}
+.single{
+    width:100% ;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #273641;
+    
+}
+.single h3{
+    
+    font-size: 20px !important;
+    font-weight: 700;
+    color: #fff;
+}
+.single i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #8BC34A;
+    
+}
+.single p{
+    margin-left: 50px;
+    color: #fff;
+}
+/* service end */
+/* best selling product start  */
+.products{
+    padding: 100px 0;
+}
+.p-con {
+    margin-bottom: 50px;
+}
+.p-con h1{ 
+    padding: 0 10px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.product{}
+.product h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+.product p{
+    margin: 10px 0 !important;
+    color: ##000000;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+.product h5{
+    margin-top: 7px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.product img{}
+
+.icon-box{
+    font-size: 13px;
+    color: #8bc34a;
+}
+
+/* best selling product end  */
+
+/* vasitable start  */
+
+.vasitable{
+    position: relative;
+    padding: 100px 0;
+    background-color: #F8F6F3;
+    min-height: 500px;
+}
+.relative-img img{
+    position:absolute;
+    top: -45px;
+    left: 50%;
+}
+.s-item{
+    padding: 50px;
+    width: 100%;
+    height: 450px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.s-item h4{
+ 
+    font-size: 24px;
+    font-weight: 700;
+}
+.s-item p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.s-item img{}
+.s-button{
+    background-color:#8bc34a ;
+    border: none;
+    border-radius: 20px;
+    padding:10px 20px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.s-button i{ 
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+/* vasitable end  */
+/* get 25% section start  */
+.get{ 
+    
+    padding: 50px 0;
+    background-color: #001524;
+    
+}
+
+.get h1{
+ color:#fbfcff;
+ font-size: 34px;
+ font-weight: 700;
+}
+/* get 25% section end  */
+/* free reg start  */
+.reg{
+    position: relative;
+    background-color: #dfe3ecad;
+    padding: 30px 0;
+}
+.triangle-up {
+    width: 0;
+	height: 0; 
+    top: -65px;
+    left: 50%;
+    transform: rotate(122deg);
+	border-left: 70px solid transparent;
+	border-right: 25px solid transparent;
+    position: absolute;
+	border-top: 50px solid #001524;
+    z-index: 2;
+}
+
+.reg h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+/* free reg end  */
+/* customar reviews start  */
+.review{
+    padding: 50px 0;
+    position: relative;
+}
+
+ .review::before {
+    content: '';
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left: 0;
+    background-image: url(../img/leave-2.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position-x: 10px;
+    background-position-y: 10px;
+    opacity:0.20;
+ }
+.reviews{
+  
+    margin:72px 0;
+    border-radius: 5px;
+    padding: 65px;
+    background-color:#FFFFFF;
+    box-shadow: 0 1px 4px 0;
+    z-index: 2 !important;
+}
+.reviews p{
+    line-height: 30px;
+}
+.icon-boxs{
+    margin-bottom: 20px;
+    color: rgb(243, 189, 10);
+}
+.img-box{}
+.title{
+    margin: 20px 0 0 20px;
+}
+.add{
+    
+    padding: 60px;
+    background-image: url(../img/r-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:465px ; 
+    border-radius: 5px;
+    z-index: 3;
+}
+.hove{
+   
+    position: relative;
+}
+.hove::before{
+    content: "";
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+}
+.hove:hover::before{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+.add h2{
+    color:#ffffff;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.add p{
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 20px 0 80px;
+}
+
+.logos{
+    
+}
+.logo-title{
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 700;
+}
+/* customar reviews end  */
+/* footer start  */
+.footer{
+    padding: 50px 0;
+    background-color: #001524;
+    border-bottom: 1px solid;
+}
+.footer p{
+    margin-top: 50px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+}
+ .r-content h1{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    
+}
+.r-content h5{
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin: 30px 0;
+   
+} 
+.play img{
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+.copyright{
+    background-color: #001524;
+    background-color: ;
+     padding: 30px 0; 
+}
+.copyright h3{
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff ;
+}
+.footer-icon i{
+ margin-left: 30px;
+ font-size: 18px;
+ color: #fff;
+}
+.footer-icon i:hover{
+    color:#8bc34a ;
+}

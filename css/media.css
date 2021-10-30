@@ -1,0 +1,277 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   /* hero start */
+   .hero{
+      padding: 50px 0;
+     
+  }
+   .hero-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+   }
+   .hero-button {
+      text-align: center !important;
+   }
+   .h-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .h-text h1{
+      font-size:30px;
+      line-height: 40px;
+   }
+  /* hero end */
+  /* service start */
+  .single{
+   margin: 10px 0;
+}
+/* service end */
+/* products start */
+.products{
+   padding: 30px 0;
+}
+.relative-img img{
+   display: none;
+}
+.product{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+/* products end */
+/* vasitable start  */
+
+.vasitable{
+   padding: 30px 0;
+ 
+}
+.s-item{
+  margin: 10px 0;
+}
+/* vasitable end  */
+/* get 25% start  */
+.get h1{
+   text-align: center;
+   font-size: 25px;
+}
+/* get 25% end  */
+/* customar revew start  */
+.logo-title{ 
+   margin: 0;
+}
+.reviews{
+  
+   margin:30px 0;
+  
+}
+/* customar revew end  */
+/* footer start  */
+.footer{
+   padding: 20px 0;
+   text-align: center;
+   
+}
+
+.footer p{
+   margin-top: 20px;
+   font-size: 15px;
+   text-align: center;
+}
+.r-content h1{
+   font-size: 18px;
+   text-align: center;
+}
+.r-content h5{
+  text-align: center;
+  
+} 
+.play{
+   display: flex;
+   flex-direction: column;
+}
+.copyright h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer-icon {
+display: flex !important;
+flex-direction: row;
+justify-content: center !important;
+}
+
+/* footer end  */
+
+
+
+    }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+   /* hero start */
+   .hero{
+      padding: 50px 0;
+     
+  }
+   .hero-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+   }
+   .h-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .h-text h1{
+      font-size:30px;
+      line-height: 30px;
+   }
+  /* hero end */
+   /* service start */
+   .single{
+      margin: 10px 0;
+   }
+   /* service end */
+   /* products start */
+.products{
+   padding: 50px 0;
+}
+
+/* products end */
+/* vasitable start  */
+
+.vasitable{
+   padding: 50px 0;
+ 
+}
+.s-item{
+  margin: 10px 0;
+}
+/* vasitable end  */
+/* get 25% start  */
+.get h1{
+   text-align: center;
+   font-size: 25px;
+}
+/* get 25% end  */
+/* footer start  */
+.footer{
+   padding: 20px 0;
+   text-align: center !important;
+   
+}
+.footer p{
+   margin-top: 20px;
+   font-size: 15px;
+   text-align: center;
+}
+.r-content h1{
+   font-size: 18px;
+   text-align: center;
+}
+.r-content h5{
+  text-align: center;
+  
+} 
+.play{
+   display: flex !important;
+   flex-direction: column;
+   justify-content: center;
+}
+.copyright h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer-icon {
+display: flex !important;
+flex-direction: row;
+justify-content: center !important;
+}
+
+/* footer end  */
+  
+    }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /* hereo stert */
+   .hero{
+      padding: 50px 0;
+     
+  }
+   .hero-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+   }
+   .h-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .h-text h1{
+      font-size:40px;
+   }
+   /* hereo end */
+   /* service start */
+   .single{
+      margin: 10px 0;
+   }
+   /* service end */
+   .products{
+      padding: 50px 0;
+   }
+   
+   /* products end */
+   /* vasitable start  */
+
+.vasitable{
+   padding: 50px 0;
+ 
+}
+.s-item{
+  margin: 10px 0;
+}
+/* vasitable end  */
+/* get 25% start  */
+.get h1{
+   text-align: center;
+   font-size: 25px;
+}
+/* get 25% end  */
+/* footer  */
+
+
+
+   }
+
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   /* service start */
+   .single{
+      margin: 10px 0;
+   }
+   /* service end */
+
+    }
+
+ /* Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   }
+
+ /*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+   }
